@@ -10,7 +10,6 @@ const ProfilePage = () => {
   const handleImageUpload = async (e) => {
      const file=e.target.files[0];
      if(!file) return;
-
      const reader=new FileReader();
 
      reader.readAsDataURL(file);
